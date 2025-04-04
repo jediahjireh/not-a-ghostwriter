@@ -3,8 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Stepper } from "@/components/ui/stepper";
-import { InfoDialog } from "@/components/ui/info-dialog";
+import { Stepper } from "@/components/global/Stepper";
+import { InfoDialog } from "@/components/global/InfoDialog";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";

@@ -12,7 +12,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Stepper } from "@/components/ui/stepper";
+import { Stepper } from "@/components/global/Stepper";
 
 const infoSteps = [
   {
