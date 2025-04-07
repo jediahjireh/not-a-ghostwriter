@@ -30,6 +30,11 @@ export default function RootLayout({
       >
         <NavHeader />
         <main>{children}</main>
+        <footer className="border-t border-primary text-primary">
+          <div className="container mx-auto px-4 py-6 text-center text-sm">
+            Not A Ghostwriter © {new Date().getFullYear()}
+          </div>
+        </footer>
       </body>
     </html>
   );
